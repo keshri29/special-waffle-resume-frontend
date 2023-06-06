@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+body {
+    line-height: 1
+}
+
+a {
+    text-decoration: none
+}
+
+html {
+    font-size: 18px;
+    font-family: Baloo;
+    /* line-height: .5rem; */
+    background: #000000
+}
+
+body,html {
+    height: 100%
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.padding {
+    padding-bottom: 100px;
+}
+
+.push-right {
+    margin-left: auto!important
+}
+
+header {
+    padding: 50px 20%;
+    height: 43px;
+    display: flex;
+}
+
+.h1{
+    color: hsl(0, 0%, 0%);
+}
+
+
+.diff{
+    color:#c8ccd0;
+    word-spacing: 4px;
+}
+
+header * {
+    z-index: 2
+}
+
+
+
+header .header_link {
+    font-family: Baloo;
+    font-size: 20px;
+    align-self: flex-end;
+    margin-left: 70px;
+    border-bottom:100%;
+    color: #000000;
+}
+
+header .header_link:hover {
+    background: #01ffc7
+}
+
+@media (min-width: 0px) and (max-width:873px) {
+    header {
+        max-width:750px;
+        margin: auto;
+        padding: 50px 1rem
+    }
+}
+
+footer {
+    width: 100%;
+    height: 108px;
+    position: absolute;
+    bottom: 0
+}
+
+footer nav {
+    border-top: 3px solid #0000ff;
+    width: 90%;
+    max-width: 750px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center
+}
+
+footer nav div {
+    width: 33%;
+    max-width: 180px;
+    align-self: center;
+    text-align: center
+}
+
+
+
+.link,a {
+    border-bottom: 3px solid #4cffd8;
+    color: inherit;
+
+}
+
+.link:hover,.post a:hover {
+    background: #00ffbf
+}
+
+.homepage header a {
+    color: #fff
+}
+
+.homepage .bg-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: url(background.jpg) 25% 85%;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+.homepage #blurb {
+    align-self: center;
+    padding-left: 7%;
+    margin-top: 60px;
+
+}
+
+.homepage footer a {
+    color: #ffffff;
+    font-size: x-large;
+
+}
+
+.foot{
+    color: black;
+}
+
+.gitu{
+    color: #000000;
+}
+
+
+@media (max-width: 599px) {
+    .home {
+        background:url(background.jpg) 25% 85%;
+        background-size: cover;
+    }
+
+    #blurb h1 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width:1000px) {
+    #blurb h1 {
+        font-size:2.5rem;
+        line-height: 3.75rem;
+    }
+}
+
+@media (min-width: 1001px) {
+    #blurb h1 {
+        font-size:3.5rem;
+        line-height: 5rem;
+    }
+}
